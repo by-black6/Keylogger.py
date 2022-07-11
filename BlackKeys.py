@@ -7,7 +7,7 @@ def on_press(key):
     global count,keys
     count += 1
     print("{0}basıldı.format(key)")
-    keysçappend(key)
+    keys.append(key)
 
     if count >= 10:
         count = 0
